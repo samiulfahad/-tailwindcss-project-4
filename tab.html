@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tailwind.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Tab section -->
+    <section>
+        <div class="flex flex-col md:flex-row justify-center md:w-2/3 mx-auto md:space-x-10 mt-20">
+            <!-- Tab 1  -->
+            <div class="hover:cursor-pointer border-b-4 border-yellow-500 tab" data-target="panel-1">
+                <h3 class="text-2xl text-black font-bold" data-target="panel-1">Tab 1</h3>
+            </div>
+            <!-- Tab 2  -->
+            <div class="hover:cursor-pointer tab" data-target="panel-2">
+                <h3 class="text-2xl text-black font-bold" data-target="panel-2">Tab 2</h3>
+            </div>
+            <!-- Tab 3  -->
+            <div class="hover:cursor-pointer tab" data-target="panel-3">
+                <h3 class="text-2xl text-black font-bold" data-target="panel-3">Tab 3</h3>
+            </div>
+            <!-- Tab 4  -->
+            <div class="hover:cursor-pointer tab" data-target="panel-4">
+                <h3 class="text-2xl text-black font-bold" data-target="panel-4">Tab 4</h3>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Panel section -->
+    <section class="relative mt-12 mx-auto">
+        <!-- Panel 1 -->
+        <div id="panel-1" class="flex shadow-2xl justify-center items-center md:space-x-6 p-8 mx-10 panel panel-1">
+            <div class="md:w-2/5 flex flex-col md:flex-row">
+                <div>
+                    <img src="./images/illustration-features-tab-1.svg" alt="">
+                </div>
+            </div>
+            <div class="md:w-3/5 flex flex-col">
+                <h1 class="text-4xl text-black font-bold"> Tab 1 Title </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat obcaecati delectus repellendus facilis doloremque aut nostrum, vitae veritatis, officiis </p>
+                <a href="" class="mt-4 px-4 py-3 bg-blue-400 self-start rounded-lg">Click Me</a>
+            </div>
+        </div>
+
+        <!-- Panel 2 -->
+        <div id="panel-2" class="hidden flex shadow-2xl justify-center items-center md:space-x-6 p-8 mx-10 panel panel-2">
+            <div class="md:w-2/5 flex flex-col md:flex-row">
+                <div>
+                    <img src="./images/illustration-features-tab-2.svg" alt="">
+                </div>
+            </div>
+            <div class="md:w-3/5 flex flex-col">
+                <h1 class="text-4xl text-black font-bold"> Tab 2 Title </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat obcaecati delectus repellendus facilis doloremque aut nostrum, vitae veritatis, officiis </p>
+                <a href="" class="mt-4 px-4 py-3 bg-blue-400 self-start rounded-lg">Click Me</a>
+            </div>
+        </div>
+
+        <!-- Panel 3 -->
+        <div id="panel-3" class="hidden flex shadow-2xl justify-center items-center md:space-x-6 p-8 mx-10 panel panel-3">
+            <div class="md:w-2/5 flex flex-col md:flex-row">
+                <div>
+                    <img src="./images/illustration-features-tab-3.svg" alt="">
+                </div>
+            </div>
+            <div class="md:w-3/5 flex flex-col">
+                <h1 class="text-4xl text-black font-bold"> Tab 3 Title </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat obcaecati delectus repellendus facilis doloremque aut nostrum, vitae veritatis, officiis </p>
+                <a href="" class="mt-4 px-4 py-3 bg-blue-400 self-start rounded-lg">Click Me</a>
+            </div>
+        </div>
+        <!-- Panel 4 -->
+        <div id="panel-4" class="hidden flex shadow-2xl justify-center items-center md:space-x-6 p-8 mx-10 panel panel-4">
+            <div class="md:w-2/5 flex flex-col md:flex-row">
+                <div>
+                    <img src="./images/illustration-features-tab-1.svg" alt="">
+                </div>
+            </div>
+            <div class="md:w-3/5 flex flex-col">
+                <h1 class="text-4xl text-black font-bold"> Tab 4 Title </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat obcaecati delectus repellendus facilis doloremque aut nostrum, vitae veritatis, officiis </p>
+                <a href="" class="mt-4 px-4 py-3 bg-blue-400 self-start rounded-lg">Click Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section>
+        <div class="max-w-6xl flex flex-col md:flex-row">
+            <h1 class="text-4xl text-black font-bold text-center">
+                Download The Extention Now
+            </h1>
+            <p class="text-lg text-gray-500 text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatem maxime officia. Accusantium doloremque aspernatur reiciendis maxime quo magni eos officia. Exercitationem eius atque, culpa sit nisi esse omnis tempore!
+            </p>
+        </div>
+    </section>
+    <script src="./js/script2.js"></script>
+</body>
+</html>
